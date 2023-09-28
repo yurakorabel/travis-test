@@ -17,6 +17,12 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+      - run:
+          name: "sleep000"
+          command: "sleep 20"
+      - run:
+          name: "Say hello11p"
+          command: "echo Hello, World111!"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
